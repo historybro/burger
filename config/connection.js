@@ -1,5 +1,5 @@
 var mysql = require("mysql");
-var pass = process.env.pass
+var pass = process.env.pass;
 
 var connection = mysql.createConnection({
     host: "localhost",
