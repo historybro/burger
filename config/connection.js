@@ -1,5 +1,5 @@
 var mysql = require("mysql");
-var pass = process.env.pass;
+var pass = "toor";
 
 var connection = mysql.createConnection({
     host: "localhost",
