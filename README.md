@@ -5,12 +5,15 @@ This project was a a homework assignment for SMU's coding bootcamp week 15. It i
 ## Getting Started
 
 * Order a burger
-    * Type a name into the order form and then h it the order button ![Order](readme/order.png)
+    * Type a name into the order form and then h it the order button
     * This name will appear on the left ready to be "devoured"
+    ![Order](readme/order.png)
 * Devour a burger
-    * Clicking the devour button will "devour" the burger placing it under the "Burgers Devoured" list ![Devour](readme/devour.png)
+    * Clicking the devour button will "devour" the burger placing it under the "Burgers Devoured" list 
+    ![Devour](readme/devour.png)
 * Delete a burger
-    * For any reason you want to remove a burger simply hit the delete button to remove it. ![Delete](readme/delete.png)
+    * For any reason you want to remove a burger simply hit the delete button to remove it. 
+    ![Delete](readme/delete.png)
 
 ## Deployment
 
