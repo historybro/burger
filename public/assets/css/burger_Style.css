@@ -1,14 +1,6 @@
 body{
     background-image: url(../img/darkwood_bg.jpg);
 }
-#burg {
-    /* background-image: url(../img/burgg.png);
-    background-repeat:no-repeat;
-    background-size: auto;
-    background-position: center; */
-    padding: 10em;
-}
-
 #row1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 112px;
