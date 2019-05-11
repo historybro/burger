@@ -17,9 +17,10 @@
         {{#each burger}}
         {{#unless devoured}}
         <li>
-          {{burger_name}}
+          <p>{{burger_name}}
           <button class="change-dev btn btn-warning" data-id="{{id}}" data-newDev="{{devoured}}"><i class="fas fa-utensils"></i></button>
           <button class="delete-burger btn btn-danger" data-id="{{id}}"><i class="fas fa-times-circle"></i></button>
+          </p>
         </li>
         {{/unless}}
         {{/each}}
@@ -33,13 +34,9 @@
         {{#each burger}}
         {{#if devoured}}
         <li>
-          {{burger_name}}
-          {{!-- 
-            If I wanted a delete button for the devoured burgers
-            <button class="delete-burger" data-id="{{id}}">
-            Wrong Order!
-            </button> 
-          --}}
+          <p>{{burger_name}}
+          <button class="delete-burger btn btn-danger" data-id="{{id}}"><i class="fas fa-times-circle"></i></button>
+          </p>
         </li>
         {{/if}}
         {{/each}}
